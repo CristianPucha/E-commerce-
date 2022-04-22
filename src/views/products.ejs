@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('./partials/head') %>
+
+<body>
+  <%- include('./partials/header') %>
+
+  <main>
+<h4 class = "h4-product"> Main Products:</h4>
+    <ul class='products-ul-card'>
+      <% for(let i = 0; i < products.length; i++){ %>
+
+      <li class='products-li-card'>
+        <div class="card col-11 position-relative">
+          <img class="card-img-top" src='img/<%= products[i].product_image%>' alt=<%=products[i].product_name%>>
+          <div class="card-body position-absolute titulo-juegos d-flex align-content-center">
+            <h4 class="card-title flex-grow-1"><%=products[i].product_name%></h4>
+            <p class="card-text">
+              <%= products[i].product_price %>
+            </p>
+            <a href="/products/productDetail/<%= products[i].id %>" class="stretched-link"></a>
+          </div>
+        </div>
+      </li>
+
+      <% } %>
+    </ul>
+  </main>
+  <%- include('./partials/footer') %>
+
+</body>
+
+</html>

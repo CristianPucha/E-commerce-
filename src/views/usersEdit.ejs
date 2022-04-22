@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('./partials/head') %>
+
+<body>
+    <%- include('./partials/header') %>
+
+
+    <form action="/users/<%= User.id %>/usersEdit?_method=PUT" method="POST" enctype="multipart/form-data" class="formulario">
+       <br>
+        <h4><i class="far fa-edit"></i>Edit profile:
+            </br>
+           
+        <div class="caja">
+            <label for="NombreUsuario"> First name: </label><br><input type="text" name="first_name" value="<%= User.first_name
+            %>">
+        </div>
+        <div class="caja">
+            <label for="ApellidoUsuario"> Last name: </label><br><input type="text" class = "last_name_val" name="last_name" value="<%= User.last_name
+             %>"  >
+        </div>
+        <div class="caja">
+            <label for="EmailUsuario"> E-mail: </label><br><input type="email" class ="email_val" name="email" value="<%= User.email %>" >
+            <div class="caja">
+                <label> Profile image: </label> <input type="file" class = "image_val" name="image" accept=".jpg, .jpeg, .png" value="<%= User.image
+                %>"> 
+            </div>
+        </div>
+        
+        </select> </div>
+        <div>
+            <input class="botonEditProduct" type="submit" value="Edit profile"></div>
+    </form>
+
+    <form action="/users/<%= User.id %>/deleteusers?_method=DELETE" method="POST">
+        <div>
+            <input class="botonEditProduct" type="submit" value="Delete profile"></div>
+    </form>
+
+    <%- include('./partials/footer') %>
+</body>
+
+</html>

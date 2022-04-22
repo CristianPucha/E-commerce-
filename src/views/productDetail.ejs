@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+    <%- include('./partials/head') %>
+    <body>
+      <%- include('./partials/header') %>
+<div class="producto">
+
+        <!-- <div class="fotoProducto">
+          <img src= img/<%= Product.product_image %> alt = <%= Product.product_name %>>
+        </div>
+        <div class="tituloProducto">
+            <h1 class="modelo"> <%= Product.product_name %> </h1>
+          </div>
+      <div class="Precio">
+        <label class="precio" name="price">Price</label> <span class="pesos"> USD $ <%= Product.product_price %>
+        </span>
+        </div>
+    <div class="Envio">Worldwide available</div>
+        <div class="descripcionproducto"> Description <%= Product.product_description %> </div>
+        <label for="product_category">Category: </label>
+      
+        <span class="product_category" id="" required>
+            <% allProduct_category.forEach(product_category => { %>
+   <% if (Product.product_category == product_category.id) { %><%= product_category.category_name %><% }; %>
+            <% }); %> <br>
+            </span>
+                
+        <label for="Cantidad">Quantity: <select  class= "Cantidad" name="Cantidad" >
+    <option value="1" selected>1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    </select></label>   -->
+    <div id="container">	
+	
+      <!-- Start	Product details -->
+        <div class="product-details">
+          
+          <!-- 	Product Name -->
+        <h1><%= Product.product_name %> </h1>
+      <!-- 		<span class="hint new">New</span> -->
+      <!-- 		<span class="hint free-shipping">Free Shipping</span> -->
+      <!-- 		the Product rating -->
+        <span class="hint-star star">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </span>
+          
+      <!-- The most important information about the product -->
+          <p class="information"><ul>
+            <li><strong>USD $ <%= Product.product_price %></strong></li>
+            <li><strong>Category: <span class="product_category" id="" required>
+              <% allProduct_category.forEach(product_category => { %>
+     <% if (Product.product_category == product_category.id) { %><%= product_category.category_name %><% }; %>
+              <% }); %> <br>
+              </span> </strong></li>
+            <li><strong>Worldwide available</strong></li>
+           
+          </ul>
+          
+      <!-- 		Control -->
+      <div class="control">
+        
+      <!-- Start Button buying -->
+        <button class="btn">
+      <!-- 		the Price -->
+         <span class="price"><%= Product.product_price %> </span>
+      <!-- 		shopping cart icon-->
+         <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+      <!-- 		Buy Now / ADD to Cart-->
+         <span class="buy">Buy Now</span>
+       </button>
+        <!-- End Button buying -->
+        
+      </div>
+            
+      </div>
+        
+      <!-- 	End	Product details   -->
+        
+        
+        
+      <!-- 	Start product image & Information -->
+        
+      <div class="product-image">
+        
+        <img src=img/<%= Product.product_image %> alt = <%= Product.product_name %>>
+        
+      <!-- 	product Information-->
+      <div class="info">
+        <ul>
+          
+          <li><strong> Description: <div class="descripcionproducto">  <%= Product.product_description %> </div>
+          </strong></li>
+
+        </ul>
+      </div>
+      </div>
+      <!--  End product image  -->
+      
+        
+    </div>
+    <div class="formulario"> <button type="subtmit" class="boton" value="VolverHome"><i class="fas fa-shopping-cart"></i><a href="index"> Buy now</a></button>           
+    </div> 
+    <div class="formulario"> <button type="subtmit" class="boton" value="VolverHome"><i class="fas fa-home"></i><a href="index"> Back to home</a></button>           
+    </div> 
+  
+  
+  
+  
+  </div> 
+
+
+   
+          <%- include('./partials/footer') %>
+</body>
+</html>

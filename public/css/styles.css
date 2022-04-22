@@ -1,0 +1,1615 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.products-li-card{
+    width: 400px;
+    margin-top: 9px;
+    transition: all 1s ease-in-out;
+    margin-bottom: 90px;
+margin-left: 50px;
+}
+.products-li-card:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 9px 8px -7px rgba(0,0,0,0.68);
+}
+.products-ul-card{
+display: flex;
+flex-wrap: wrap;
+list-style:none;
+margin-bottom: 80px;
+padding: 20px 10px;
+  position: relative;
+
+}
+.col-11  {
+    border-radius: 20px 20px;
+    padding: 6%;
+}
+.h4-product{
+margin-top: 100px;
+font-size: 1.3rem;
+color: white;
+font-size: 1.8rem;
+padding-left: 20px;
+box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+-webkit-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+-moz-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+
+}
+
+.contenedor-main {
+    position: relative;
+
+}
+
+
+main.imagen-main {
+    position: relative;
+    margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.titulo {
+    position: absolute;
+    bottom: 60px;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.titulo h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.titulo-juegos {
+    bottom: 0px;
+    background-color: rgba(65, 156, 168, 0.9);
+    width: 100%;
+    margin: auto;
+    left: 0;
+}
+
+.card-title {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    ;
+}
+
+.card-text {
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.categorias {
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 8px;
+    margin-top: 40px;
+    box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    width: 80vw;
+}
+
+.categoriassoft {
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 8px;
+    margin-top: 40px;
+    box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 1px -1px 3px 3px rgba(0, 0, 0, 0.58);
+    width: 10%;
+}
+
+.pagos {
+    width: 100vw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pagos img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+}
+
+.redes {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.redes img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 25px;
+
+}
+
+.carritodecompras {
+    position: fixed;
+    right: 5px;
+    bottom: 350px;
+    z-index: 60;
+    background-color: black;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.carritodecompras i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgba(65, 156, 168, 0.9)
+}
+
+
+
+
+@media (min-width: 768px) {
+    header nav ul li a {
+        font-size: 1rem;
+        ;
+    }
+
+    header .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    header #buscado {
+        width: 70%;
+        margin-top: 20px;
+        ;
+
+    }
+
+    header .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    header #labarra {
+        width: 40vw;
+    }
+
+    header #buscado input {
+        width: 70%;
+    }
+
+    header nav {
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a:hover {
+        color: #fdd900 !important;}
+   
+        .products-li-card{
+            width: 400px;
+            margin-top: 9px;
+            transition: all 1s ease-in-out;
+        margin-left: 50px;
+        flex-grow: 1;
+        }
+        .products-li-card:hover{
+            transform: scale(1.1);
+            box-shadow: 4px 9px 8px -7px rgba(0,0,0,0.68);
+        }
+        .products-ul-card{
+        display: flex;
+        flex-wrap: wrap;
+        list-style:none;
+        
+        padding: 10px 10px;
+          position: relative;
+        
+        } }
+
+
+
+/* ************************************** EMPIEZA EL CSS DEL LOGIN *********************************************************/
+
+
+/* Aca el login */
+.login input {
+    border-bottom: solid white 2px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0px 20px;
+    color: white;
+    margin-bottom: 20px;
+    outline: none;
+    height: 50px;
+    width: 50vw;
+    margin-right: 0px;
+    flex-direction: column;
+}
+
+
+
+::placeholder {
+    color: white
+}
+
+.boton {
+    background-color: rgba(65, 156, 168, 0.9);
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 50px;
+    width: 25vw;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+
+.login__container {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.registro {
+    font-style: italic;
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+section ul {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section ul li {
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.rememberme {
+    justify-content: center;
+    align-items: center;
+    
+}
+.checkbox{
+    display: none;
+    justify-content: center;
+ 
+}
+
+
+.svg-icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 5vw;
+    height: auto;
+    text-align: left;
+    font-size: 3rem;
+    justify-content: space-evenly;
+}
+
+/* *************** FINAL CSS DEL LOGIN ****************************/
+
+
+
+/********************************** ACA ARRANCA EL STYLE PRODUCTS Detail CSS *************************************/
+
+
+
+body {
+    width: 100wv;
+}
+
+.producto {
+    margin-top: 80px !important;
+}
+
+.pagos {
+    width: 100vw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pagos img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+}
+
+.redes {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.redes img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 25px;
+
+}
+
+.card-img-top {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+
+.articulos {
+    position: relative;
+    width: 90vw;
+    margin-top: 10px;
+    box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    -webkit-box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    -moz-box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    top: 80px;
+
+}
+
+.fa-times-circle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+
+.card-horizontal {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.descripcionjuego {
+    padding-top: 20px;
+    color: white;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+
+}
+
+
+.botones {
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    white-space: unset;
+    margin-bottom: -40px;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+
+@media (min-width: 768px) {
+
+    header nav ul li a {
+
+        font-size: 1rem;
+        ;
+    }
+
+    header .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    header #buscado {
+        width: 70%;
+        margin-top: 20px;
+        ;
+
+    }
+
+    header .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    header #labarra {
+        width: 40vw;
+    }
+
+    header #buscado input {
+        width: 70%;
+    }
+
+    header nav {
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a:hover {
+        color: #fdd900 !important;
+    }
+
+}
+
+
+/********************************** Termina ARRANCA EL STYLE PRODUCTS Detail CSS *************************************/
+
+
+/********************************* EMPEZA PRODUCTS CART CSS *******************************************/
+
+body {
+    width: 100wv;
+    background: rgb(199, 197, 197);
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 30;
+    top: 0%;
+}
+
+header nav {
+    background: rgba(96, 108, 136, 0, 1) !important;
+    position: fixed;
+    z-index: 20;
+}
+
+header .bg-dark {
+    background-color: rgba(96, 108, 136, 0, 1) !important;
+    --bs-bg-opacity: 0.8;
+
+
+}
+
+
+header i.fas.fa-bars {
+    color: white;
+    font-size: 1.5rem;
+
+
+}
+
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+header .nav-link {
+    color: white !important;
+}
+
+
+header nav ul li {
+    text-align: center;
+    width: 100vw;
+    margin-top: 5px;
+}
+
+header .lordicon {
+    display: none;
+}
+
+
+
+header .logoo img {
+    flex-grow: 1;
+    padding: 5px 15px;
+    width: 100px;
+    height: auto;
+}
+
+header #buscador {
+    background: #606c88;
+    /* fallback for old browsers / background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  / Chrome 10-25, Safari 5.1-6 / background: linear-gradient(to right, #3f4c6b, #606c88); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+
+
+header #buscador:focus ::placeholder {
+    color: white;
+
+
+}
+
+header .navbar {
+    padding: 0 0 !important;
+}
+
+header #desplega {
+    margin: auto;
+    width: 100%;
+}
+
+.pagos {
+    width: 100vw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pagos img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+}
+
+.redes {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.redes img {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 25px;
+
+}
+
+.card-img-top {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.articulos {
+    position: relative;
+    width: 90vw;
+    margin-top: 10px;
+    box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    -webkit-box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    -moz-box-shadow: -1px -1px 12px 1px rgba(133, 133, 133, 0.93);
+    top: 80px;
+
+}
+
+.fa-times-circle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+
+.card-horizontal {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.descripcionjuego {
+    padding-top: 20px;
+    color: white;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+
+}
+
+
+.botones {
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    white-space: unset;
+    margin-bottom: -40px;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+
+@media (min-width: 768px) {
+
+
+
+
+
+
+
+
+    header nav ul li a {
+
+        font-size: 1rem;
+        ;
+    }
+
+    header .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    header #buscado {
+        width: 70%;
+        margin-top: 20px;
+        ;
+
+    }
+
+    header .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    header #labarra {
+        width: 40vw;
+    }
+
+    header #buscado input {
+        width: 70%;
+    }
+
+    header nav {
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a:hover {
+        color: #fdd900 !important;
+    }
+
+}
+
+
+
+
+@media (min-width: 1200px) {}
+
+/* ****************************************** ACA TERMINA PRODUCT CART *****************************************/
+
+
+#container{
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 8em auto 2em auto;
+	height: 500px;
+	width: 1000px;
+	
+}
+
+
+
+/* 	Product details  */
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+
+}
+
+/* 	Product Name */
+#container .product-details h1{
+	font-family: 'Old Standard TT', serif;
+	display: inline-block;
+	position: relative;
+	font-size: 34px;
+	color: #344055;
+	margin: 0;
+	
+}
+
+#container .product-details h1:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: #FFF;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+
+
+
+/*Product Rating  */
+.hint-star {
+	display: inline-block;
+	margin-left: 0.5em;
+	color: gold;
+	width: 50%;
+}
+
+
+/* The most important information about the product */
+#container .product-details > p {
+	text-align: center;
+	font-size: 20px;
+	color: #7d7d7d;
+	
+}
+
+/* control */
+
+.control{
+	position: absolute;
+	bottom: 20%;
+	left: 22.8%;
+	
+}
+/* the Button */
+.btn {
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background: rgba(65, 156, 168, 0.9);
+	border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.btn:hover{transform: translateY(-4px);}
+
+.btn span {
+	transition: transform 0.3s;
+	display: inline-block;
+  padding: 10px 20px;
+	font-size: 1.2em;
+	margin:0;
+	
+}
+/* shopping cart icon */
+.btn .price, .shopping-cart{
+	background: #333;
+	border: 0;
+	margin: 0;
+}
+
+.btn .price {
+	transform: translateX(-10%); padding-right: 15px;
+}
+
+/* the Icon */
+.btn .shopping-cart {
+	transform: translateX(-100%);
+  position: absolute;
+	background: #333;
+	z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+/* buy */
+.btn .buy {z-index: 3; font-weight: bolder;}
+
+.btn:hover .price {transform: translateX(-110%);}
+
+.btn:hover .shopping-cart {transform: translateX(0%);}
+
+
+
+/* product image  */
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+#container img {width: 100%;height: 100%;}
+
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.9;
+    text-align: left;
+        cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info h2 {text-align: center}
+.product-image:hover .info{transform: translateX(0);}
+
+.info ul li{transition: 0.3s ease;}
+.info ul li:hover{transform: translateX(50px) scale(1.3);}
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
+
+/* ******************************************* ACA EMPIEZA EL REGISTER *****************************************/
+/*Aca empieza el header */
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 30;
+}
+
+header nav {
+    background: rgba(65, 156, 168, 0.9) !important;
+    position: fixed;
+    z-index: 20;
+}
+
+header .bg-dark {
+    background-color: rgba(65, 156, 168, 0.9)!important;
+    --bs-bg-opacity: 0.8;
+}
+
+header i.fas.fa-bars {
+    color: white;
+    font-size: 1.5rem;
+}
+
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+header .nav-link {
+    color: white !important;
+}
+
+header nav ul li {
+    text-align: center;
+    width: 100vw;
+    margin-top: 5px;
+}
+
+header .lordicon {
+    display: none;
+}
+
+header .logoo img {
+    flex-grow: 1;
+    padding: 5px 15px;
+    width: 100px;
+    height: auto;
+}
+
+header #buscador {
+    background: rgba(65, 156, 168, 0.9);
+    /* fallback for old browsers / background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  / Chrome 10-25, Safari 5.1-6 / background: linear-gradient(to right, #3f4c6b, #606c88); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+header #buscador:focus ::placeholder {
+    color: white;
+}
+
+header .navbar {
+    padding: 0 0 !important;
+}
+
+header #desplega {
+    margin: auto;
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: white !important;
+}
+
+i.fas.fa-bars {
+    color: red;
+}
+
+i.fas.fa-bars {
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100vw;
+    margin-top: 5px;
+}
+
+.lordicon {
+    display: none;
+}
+
+.logoo img {
+    flex-grow: 1;
+    padding: 5px 15px;
+    width: 100px;
+    height: auto;
+}
+
+#buscador {
+    background: rgba(65, 156, 168, 0.9);
+    /* fallback for old browsers / background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  / Chrome 10-25, Safari 5.1-6 / background: linear-gradient(to right, #3f4c6b, #606c88); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+#buscador:focus ::placeholder {
+    color: white;
+}
+
+.navbar {
+    padding: 0 0 !important;
+}
+
+#desplega {
+    margin: auto;
+    width: 100%;
+}
+
+.pagos {
+    width: 100vw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pagos img {
+    width: 7vw;
+    height: 7vw;
+    text-align: center;
+}
+
+.redes {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.redes img {
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 25px;
+
+}
+
+@media (min-width: 768px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #buscado {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    #labarra {
+        width: 40vw;
+    }
+
+    #buscado input {
+        width: 70%;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+    }
+
+    nav ul li a:hover {
+        color: #fdd900;
+    }
+
+    header nav ul li a {
+
+        font-size: 1rem;
+        ;
+    }
+
+    header .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    header #buscado {
+        width: 70%;
+        margin-top: 20px;
+        ;
+
+    }
+
+    header .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    header #labarra {
+        width: 40vw;
+    }
+
+    header #buscado input {
+        width: 70%;
+    }
+
+    header nav {
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a:hover {
+        color: #fdd900 !important;
+    }
+
+}
+
+nav {
+    background: rgba(65, 156, 168, 0.9);
+    /* fallback for old browsers / background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  / Chrome 10-25, Safari 5.1-6 / background: linear-gradient(to right, #3f4c6b, #606c88); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.caja input::placeholder {
+    font-size: 0.8rem;
+}
+
+.bg-dark {
+    background-color: white !important;
+}
+
+i.fas.fa-bars {
+    color: red;
+}
+
+i.fas.fa-bars {
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100vw;
+    margin-top: 5px;
+}
+
+.lordicon {
+    display: none;
+}
+
+.logoo img {
+    flex-grow: 1;
+    padding: 5px 15px;
+    width: 100px;
+    height: auto;
+}
+
+#buscador {
+    background: rgba(65, 156, 168, 0.9);
+    /* fallback for old browsers / background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  / Chrome 10-25, Safari 5.1-6 / background: linear-gradient(to right, #3f4c6b, #606c88); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+#buscador:focus ::placeholder {
+    color: white;
+}
+
+.navbar {
+    padding: 0 0 !important;
+}
+
+#desplega {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .lordicon {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #buscado {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .separa {
+        border-left: 1px solid #fdd900;
+    }
+
+    #labarra {
+        width: 40vw;
+    }
+
+    #buscado input {
+        width: 70%;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+    }
+
+    nav ul li a:hover {
+        color: #fdd900;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+/* Hasta aca el header */
+
+/* empieza register */
+
+body {
+background-image: "../img/istockphoto-1249340676-640x640.jpeg";
+}
+
+input {
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-weight: bold;
+    height: 50px;
+    width: 50vw;
+    letter-spacing: 1px;
+    justify-content: space-around;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid white 1px;
+
+}
+
+.formulario {
+    text-align: center;
+    font-size: 0.5rem;
+    width: 100vw;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario h4 {
+    font-size: 2rem;
+    margin-bottom: 2px;
+    color: white;
+    margin-top: 2px;
+    
+}
+
+.formulario div {
+    width: 60vw;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.formulario .caja {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.formulario .botonborrar{
+    margin-top: 0;
+}
+.boton {
+    text-align: center;
+    background-color: rgba(65, 156, 168, 0.9);
+    border-radius: 50px;
+    height: 10vh;
+    width: 50vw;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(5, 7, 151, 0.1);
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+
+.tenesCuenta {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+:visited {
+    color: white;
+}
+
+.tyc {
+    font-size: 1rem;
+    color: white;
+}
+
+form h4 {
+    padding-top: 100px;
+}
+
+.register{
+    background-color: #cfd9e9;
+}
+/* termina register */
+
+
+/* empieza edit y new product */
+.StockDisponible {
+    padding: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #cfd9e9;
+    font-weight: bold;
+    height: 50px;
+    width: 50vw;
+    letter-spacing: 1px;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cajaDescripcion {
+    padding: 2%;
+    text-align: center;
+    background-color: #cfd9e9;
+    font-weight: bold;
+    height: 90px;
+    width: 50vw;
+    letter-spacing: 1px;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.botonEditProduct {
+    background-color: rgba(65, 156, 168, 0.9);
+    border-radius: 50px;
+    height: 10vh;
+    width: 50vw;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(5, 7, 151, 0.1);
+    font-size: 1.3rem;
+    font-weight: bold;
+    justify-content: center;
+}
+.errores{
+    margin-top: 20vh;
+    justify-content: center;
+    color: red;
+    width: 30vw;
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+/* termina edit y new product */
+
+/****************************************************** ACA TERMNA EL REGISTER *****************************************/
+/****************************************************** ACA EMPIEZA PRODUCT DETAIL*****************************************/
+
+#container{
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 8em auto 2em auto;
+	height: 500px;
+	width: 1000px;
+	
+}
+
+
+
+/* 	Product details  */
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+
+}
+
+/* 	Product Name */
+#container .product-details h1{
+	display: inline-block;
+	position: relative;
+	font-size: 34px;
+	color: #344055;
+	margin: 0;
+	
+}
+
+#container .product-details h1:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+    	display: inline-block;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: #FFF;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+
+
+
+/*Product Rating  */
+.hint-star {
+	display: inline-block;
+	margin-left: 0.5em;
+	color: gold;
+	width: 50%;
+}
+
+
+/* The most important information about the product */
+#container .product-details > p {
+	text-align: center;
+	font-size: 20px;
+	color: #7d7d7d;
+	
+}
+
+/* control */
+
+.control{
+	position: absolute;
+	bottom: 20%;
+	left: 22.8%;
+	
+}
+/* the Button */
+.btn {
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background: rgba(65, 156, 168, 0.9);
+	border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.btn:hover{transform: translateY(-4px);}
+
+.btn span {
+	transition: transform 0.3s;
+	display: inline-block;
+  padding: 10px 20px;
+	font-size: 1.2em;
+	margin:0;
+	
+}
+/* shopping cart icon */
+.btn .price, .shopping-cart{
+	background: #333;
+	border: 0;
+	margin: 0;
+}
+
+.btn .price {
+	transform: translateX(-10%); padding-right: 15px;
+}
+
+/* the Icon */
+.btn .shopping-cart {
+	transform: translateX(-100%);
+  position: absolute;
+	background: #333;
+	z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+/* buy */
+.btn .buy {z-index: 3; font-weight: bolder;}
+
+.btn:hover .price {transform: translateX(-110%);}
+
+.btn:hover .shopping-cart {transform: translateX(0%);}
+
+
+
+/* product image  */
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+#container img {
+    width: 100%;height: 100%;
+margin: 5%;}
+
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.9;
+    text-align: left;
+        cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info h2 {text-align: center}
+.product-image:hover .info{transform: translateX(0);}
+
+.info ul li{transition: 0.3s ease;}
+.info ul li:hover{transform: translateX(50px) scale(1.3);}
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
+/****************************************************** ACA  TERMINA PRODUCT DETAIL*****************************************/
