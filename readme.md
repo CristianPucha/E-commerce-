@@ -24,7 +24,7 @@ https://trello.com/b/GvNKjcCC/proyecto-integrador
 * Pepe Alvarez : Tengo 22 años, a mi me gustan mas los perros que a Cristian, poco conocimiento pero le pongo mas onda que Martina. Y soy fan de Marvel
 * Martina Fumiere : Tengo 24 anios, me recibi de abogada hace poco, me gusta viajar y estar con amigos. Nada de conocimiento en programacion pero le pongo onda.
 * Juan Colado : Tengo 31 años, trabajo de contador, tengo algunos conocimientos previos de HTML, CSS y SQL. Prefiero mas la parte orientada al backend que al Frontend.
-* Cristian Pucciarelli : Tengo 33 años, me gustan los perros mas que a Pepe. Tengo conocimientos basicos de HTML y CSS. 
+* Cristian Pucciarelli : Tengo 33 años, me gustan los perros mas que a Pepe. Tengo conocimientos basicos de HTML, CSS y JAVASCRIPT.
 ### Tecnologías utilizadas en el Proyecto
 
 <p><a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
